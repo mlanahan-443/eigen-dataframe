@@ -9,6 +9,9 @@
 #include <iomanip>
 #include <sstream>
 #include <algorithm>
+#include <cstddef>
+#include <iostream>
+
 
 template<typename Scalar = double>
 class DataFrame {
@@ -112,5 +115,8 @@ public:
         return os;
     }
 };
+
+
+
 
 #endif // EIGEN_DATAFRAME_HPP
